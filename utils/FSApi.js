@@ -1,6 +1,5 @@
 const axios = require("axios");
 
-// Replace with your own credentials!
 const FS_CREDENTIALS = {
   username: "L6M84PNUSMMUIEOFEU-IFA",
   password: "buGZJyz3QLiRZkhFFyyFEQ",
