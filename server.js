@@ -1,7 +1,6 @@
 const express = require("express");
-const cors = require("cors"); // Import the cors package
+const cors = require("cors");
 const app = express();
-const path = require("path");
 const util = require("util");
 const DBdriver = require("./utils/DBdriver");
 const FSApi = require("./utils/FSApi");
