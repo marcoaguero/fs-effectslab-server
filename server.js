@@ -1,10 +1,12 @@
+/** @format */
+
 const express = require("express");
 const cors = require("cors");
 const app = express();
 const util = require("util");
 const DBdriver = require("./utils/DBdriver");
 const FSApi = require("./utils/FSApi");
-const port = 3001;
+const port = process.env.PORT || 3001;
 
 // Use the cors middleware to enable CORS
 app.use(cors());
